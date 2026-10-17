@@ -14,7 +14,7 @@ export const RECORDED_NAME = '欢欢'
  * 配置后：输入任意名字都会实时合成可录制的配音；留空则只用预生成 + 系统 TTS。
  * 例：'https://tts-proxy.your-name.workers.dev'
  */
-export const TTS_PROXY_URL = ''
+export const TTS_PROXY_URL = 'https://red-art-ae17.2660683748.workers.dev'
 
 /** 一句话的五个词，按顺序组成 "I Love {name} so much" */
 export const SENTENCE_KEYS = ['i', 'love', 'name', 'so', 'much'] as const
